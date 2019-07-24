@@ -1,0 +1,158 @@
+
+/*********GRID********/
+.full-width {
+  width:100%;
+  float: left;
+}
+.half-width {
+  width: 50%;
+  float: left;
+}
+.third-width{
+  width: 33%
+}
+.two-thirds-width{
+  width: 66%;
+}
+
+/*********BASE STYLES*********/
+
+h1 { color: #f7f7f7;
+  font-family: 'Playfair Display', serif;
+  font-size: 70pt;
+  font-weight: bold;
+  text-align:center;
+}
+
+h2 { color: #black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 { color: #f7f7f7;
+  font-family: 'Playfair Display', serif;
+  font-size: 40pt;
+  font-weight:bold;
+}
+
+h4 { color: #black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22pt;
+  font-weight:bold;
+}
+
+p {color: #black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18pt;
+}
+
+/********HEADER******/
+#header{
+  height: 650px;
+  background-color: #f2c8c9;
+  width: 100%;
+  }
+
+.hero-image {
+  background-image: url('../img/hero-image.jpg');
+  height:650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    font-size: 24px;
+  }
+
+  ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  li{
+    display: inline-block;
+    margin-right: 1px;
+  }
+
+
+/********PORTFOLIO*********/
+#portfolio{
+  height: 1500px;
+  background-color: #f2c8c9;
+  width: 100%;
+}
+
+#portfolio .full-width{
+padding: 20px 20px;
+}
+
+#portfolio h3{
+  font-size: 30px;
+}
+
+/********ABOUT********/
+#about{
+  height: 600px;
+  background-color: #f2c8c9;
+}
+
+#about h3{
+  text-align:center;
+}
+
+#about-me-picture{
+  border: solid white 10px;
+}
+
+#about .third-width{
+  width: 30%
+  float: left;
+  margin-left: 30px;
+}
+
+#about .two-thirds-width{
+  width: 60%;
+  float: right;
+  margin-right: 30px;
+}
+
+/*********CONTACT********/
+#contact{
+  height: 600px;
+  background-color: #f2c8c9;
+  text-align: center;
+}
+
+#contact .full-width{
+  padding: 20px 20px;
+  clear: both;
+  width: 100%;
+}
+
+#contact .third-width{
+  float: left;
+  padding: 0;
+  width: 33%;
+}
+
+#contact h3{
+  color: black;
+}
+
+nav{
+  padding: 10px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 12px;
+}
