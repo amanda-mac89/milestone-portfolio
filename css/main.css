@@ -19,9 +19,9 @@
 
 h1 { color: #f7f7f7;
   font-family: 'Playfair Display', serif;
-  font-size: 70pt;
+  font-size: 60pt;
   font-weight: bold;
-  text-align:center;
+  text-align: center;
 }
 
 h2 { color: #black;
@@ -47,27 +47,32 @@ p {color: #black;
   font-size: 18pt;
 }
 
-/********HEADER******/
+/********MAIN******/
 #header{
-  height: 650px;
-  background-color: #f2c8c9;
-  width: 100%;
+  background-color: #CDCDCD;
+  width: auto;
   }
 
 .hero-image {
-  background-image: url('../img/hero-image.jpg');
+  background-image: url('../img/hero-img.png');
   height:650px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: auto;
+  width: 100%;
   }
 
   nav a{
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
-    padding-left: 30px;
+    color:  #011638;
     font-size: 24px;
+    border: solid white 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
   }
 
   ul{
@@ -80,13 +85,18 @@ p {color: #black;
   li{
     display: inline-block;
     margin-right: 1px;
+    padding: 20px;
   }
 
+#header h2{
+  font-size: 25px;
+  text-align: center;
+}
 
 /********PORTFOLIO*********/
 #portfolio{
-  height: 1500px;
-  background-color: #f2c8c9;
+  height: 1300px;
+  background-color: #DAD7CD;
   width: 100%;
 }
 
@@ -98,37 +108,42 @@ padding: 20px 20px;
   font-size: 30px;
 }
 
+#portfolio .half-width{
+  text-align: center;
+}
+
+#portfolio a{
+  text-decoration: none;
+  color: white;
+}
+
 /********ABOUT********/
 #about{
-  height: 600px;
-  background-color: #f2c8c9;
+  height: 800px;
+  background-color: #A3BBAD;
+  width: 100%;
+  background-image: url('../img/about-pic.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #about h3{
   text-align:center;
 }
 
-#about-me-picture{
-  border: solid white 10px;
-}
-
-#about .third-width{
-  width: 30%
-  float: left;
-  margin-left: 30px;
-}
-
 #about .two-thirds-width{
   width: 60%;
-  float: right;
+  float: left;
   margin-right: 30px;
 }
 
 /*********CONTACT********/
 #contact{
-  height: 600px;
-  background-color: #f2c8c9;
+  background-color: #D69F9E;
   text-align: center;
+  width: 100%;
+  height: 700px
 }
 
 #contact .full-width{
