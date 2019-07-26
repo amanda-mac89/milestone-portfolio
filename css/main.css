@@ -63,7 +63,7 @@ p {color: #black;
   width: 100%;
   }
 
-  nav a{
+#header  nav a{
     text-transform: uppercase;
     text-decoration: none;
     color:  #011638;
@@ -75,14 +75,14 @@ p {color: #black;
     margin-top: 10px;
   }
 
-  ul{
+#header  ul{
     list-style-type:none;
     margin: 0;
     padding: 0;
     text-align: center;
   }
 
-  li{
+#header  li{
     display: inline-block;
     margin-right: 1px;
     padding: 20px;
@@ -163,12 +163,8 @@ padding: 20px 20px;
   color: black;
 }
 
-nav{
-  padding: 10px;
-}
-
 nav ul li{
   display: inline-block;
   list-style: none;
-  padding: 12px;
+  padding: 6px;
 }
