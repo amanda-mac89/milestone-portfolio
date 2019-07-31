@@ -2,11 +2,9 @@
 /*********GRID********/
 .full-width {
   width:100%;
-  float: left;
 }
 .half-width {
   width: 50%;
-  float: left;
 }
 .third-width{
   width: 33%
@@ -17,158 +15,158 @@
 
 /*********BASE STYLES*********/
 
-h1 { color: #f7f7f7;
+h1 {
+  color: #f7f7f7;
   font-family: 'Playfair Display', serif;
-  font-size: 60pt;
+  font-size: 50pt;
   font-weight: bold;
-  text-align: center;
 }
 
-h2 { color: #black;
+h2 {
+  color: #black;
   font-family: 'Quicksand', sans-serif;
   font-size: 40px;
-  text-align: center;
 }
 
-h3 { color: #f7f7f7;
+h3 {
+  color: #f7f7f7;
   font-family: 'Playfair Display', serif;
   font-size: 40pt;
   font-weight:bold;
 }
 
-h4 { color: #black;
+h4 {
+  color: #black;
   font-family: 'Quicksand', sans-serif;
-  font-size: 22pt;
+  font-size: 20pt;
   font-weight:bold;
 }
 
-p {color: #black;
+p {
+  color: #black;
   font-family: 'Quicksand', sans-serif;
   font-size: 18pt;
 }
 
-/********MAIN******/
-#header{
+a{
+  text-decoration: none;
+  color: white;
+}
+
+li{
+  display: inline-block;
+}
+
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+
+
+/*********MAIN NAVIGATION*********/
+.main-nav {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main-nav ul {
+  margin: 10px;
+  padding: 10px;
+}
+
+.main-nav li {
+  border: solid white 4px;
+  margin: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+/********HOME******/
+#home {
   background-color: #CDCDCD;
   width: auto;
   }
 
+  #home .full-width{
+  margin: 30px;
+  }
+
 .hero-image {
   background-image: url('../img/hero-img.png');
-  height:650px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height:650px;
   overflow: auto;
   width: 100%;
   }
 
-  nav a{
-    text-transform: uppercase;
-    text-decoration: none;
-    color:  #011638;
-    font-size: 24px;
-    border: solid white 5px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    padding: 10px;
-    margin-top: 10px;
-  }
-
-  ul{
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-
-  li{
-    display: inline-block;
-    margin-right: 1px;
-    padding: 20px;
-  }
-
-#header h2{
-  font-size: 25px;
+#home h1, h4{
   text-align: center;
 }
 
 /********PORTFOLIO*********/
 #portfolio{
-  height: 1300px;
   background-color: #DAD7CD;
-  width: 100%;
+  text-align: center;
 }
 
 #portfolio .full-width{
-padding: 20px 20px;
+  margin: 30px;
+}
+
+#portfolio .half-width{
+  float: left;
+  text-align: center;
 }
 
 #portfolio h3{
   font-size: 30px;
 }
 
-#portfolio .half-width{
-  text-align: center;
-}
-
-#portfolio a{
-  text-decoration: none;
-  color: white;
-}
-
 /********ABOUT********/
 #about{
-  height: 800px;
   background-color: #A3BBAD;
-  width: 100%;
   background-image: url('../img/about-pic.png');
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-#about h3{
-  text-align:center;
+#about .full-width {
+  margin: 30px;
 }
 
-#about .two-thirds-width{
-  width: 60%;
+#about .two-thirds-width {
   float: left;
-  margin-right: 30px;
-  margin-left: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#about h1, h3 {
+  text-align:center;
 }
 
 /*********CONTACT********/
 #contact{
   background-color: #D69F9E;
   text-align: center;
-  width: 100%;
-  height: 700px
 }
 
 #contact .full-width{
-  padding: 20px 20px;
-  clear: both;
-  width: 100%;
+  margin: 30px;
 }
 
 #contact .third-width{
   float: left;
-  padding: 0;
-  width: 33%;
 }
 
-#contact h3{
-  color: black;
-}
-
-nav{
-  padding: 10px;
-}
-
-nav ul li{
-  display: inline-block;
-  list-style: none;
-  padding: 12px;
+/*********FOOTER**********/
+.footer{
+  clear: both;
+  margin: top: 50px;
+  padding-top: 80px;
+  text-align: center;
 }
