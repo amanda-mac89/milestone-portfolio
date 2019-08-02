@@ -142,7 +142,8 @@ ul{
 #about .two-thirds-width {
   float: left;
   padding-left: 30px;
-  padding-right: 30px;
+  padding-right: 50px;
+  width: 60%;
 }
 
 #about h1, h3 {
@@ -169,4 +170,8 @@ ul{
   margin: top: 50px;
   padding-top: 80px;
   text-align: center;
+}
+
+.email{
+  color: black;
 }
